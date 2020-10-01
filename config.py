@@ -8,7 +8,7 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:kiprotich@localhost/kip'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fridah:FRIDAH@localhost/app'
 
     # email configurations
     MAIL_SERVER = 'smtp.gmail.com'
@@ -38,7 +38,7 @@ class ProdConfig(Config):
 
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:kiprotich@localhost/kip'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fridah:FRIDAH@localhost/app'
 
 
 class DevConfig(Config):
@@ -48,7 +48,7 @@ class DevConfig(Config):
     Args:
         Config : the parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:kiprotich@localhost/kip'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fridah:FRIDAH@localhost/app'
     DEBUG = True
 
 

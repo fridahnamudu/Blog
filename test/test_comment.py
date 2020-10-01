@@ -14,8 +14,8 @@ class CommentModelTest(unittest.TestCase):
 
     def test_check_instance_variables(self):
         self.assertEquals(self.new_comment.blog_id,12345)
-        self.assertEquals(self.new_comment.title,'comment for pitches')
-        self.assertEquals(self.new_comment.comment,'This pitch is the best thing since sliced bread')
+        self.assertEquals(self.new_comment.title,'comment for blogs')
+        self.assertEquals(self.new_comment.comment,'This blog is the best thing since sliced bread')
         self.assertEquals(self.new_comment.user,self.user_James)
 
     def test_save_comment(self):

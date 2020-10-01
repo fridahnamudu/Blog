@@ -5,13 +5,9 @@
 
 - This is a python-Flask application that has been created to enable users to create and post blog . A User can be able to create an account and their information will be saved into the databse of the website. The User is able to create a post whereby they will be able to update and delete posts at free will.A users is also able to Upvote and Downvote blog posts according to his preferences.
 
-## Project Screenshot
-
-- This is the Project Screenshot of the Home page
- <img src="eugene.PNG">
 
 ## Live-Link
- - You can view the project on your browser using this livelink. `https://blogkip.herokuapp.com/`
+ - You can view the project on your browser using this livelink. ``
  
 ## BDD
 
@@ -41,7 +37,7 @@
 ## Set Up Instructions
 
 - Open your terminal and move to a directory where you would like to store the project eg. cd Documents
-- Use the command `git clone` to clone the aplication at `https://github.com/eugenek45/Blog`.
+- Use the command `git clone` to clone the aplication at `https://github.com/fridahnamudu/Blog`.
 - After cloning navigate to the project.
 - Run `pip install` to install all the dependencies
 - Now run the project using your terminal with the command `./start.sh`
@@ -66,14 +62,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-@Eugene kiprotich
+@FRIDAH JOY NAMUDU
 
 ## Contact Details
 
 - You can reach me through:
-  0723574552
-  Eugenekiprotich0@gmail.com
+
+  fridah.namudu0@gmail.com
 
 ## Author
 
-**Eugene kiprotich**
+**FRIDAH JOY NAMUDU**
