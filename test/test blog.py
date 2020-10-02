@@ -1,6 +1,6 @@
 import unittest
-from app.models import Blog,User,Comment
-
+#from app.models import Blog,User,Comment
+from .app.models import Blog,User, Comment
 class TestPitch(unittest.TestCase):
     """
     This is the class which we will use to do tests for the Pitch
