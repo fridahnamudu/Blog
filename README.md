@@ -68,7 +68,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 - You can reach me through:
 
-  fridah.namudu0@gmail.com
+  fridah.namudu@gmail.com
 
 ## Author
 
